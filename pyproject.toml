@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "baxnapalm"
+version = "1.1.2"
+description = "Baxter modifications of NAPALM drivers"
+authors = ["Marek Zbroch <marek.zbroch@networktocode.com>", "Baxter Network Services"]
+packages = [
+    { include = "custom_napalm" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+napalm = "3.0.1"
+fortiosapi = "^1.0.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.4.3"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

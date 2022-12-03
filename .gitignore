@@ -1,0 +1,13 @@
+baxnapalm.egg-info
+.env
+.venv
+.vscode
+*.zip
+*.log
+pip-wheel-metadata/
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class

@@ -1,0 +1,1 @@
+include custom_napalm/utils/textfsm_templates/*.tpl

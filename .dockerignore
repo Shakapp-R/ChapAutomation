@@ -1,0 +1,6 @@
+.venv/
+.dir-locals.el
+.git/
+.vscode/
+
+
