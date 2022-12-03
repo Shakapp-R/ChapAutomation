@@ -1,4 +1,4 @@
-This repository contains all Baxter's internal modifications of NAPALM.
+This repository contains all CHAP internal modifications of NAPALM.
 
 The idea is to create a customized NAPALM driver for devices and store Baxter's logic in the new driver.
 The drivers inherit from NAPALM, so they don't replace or change any existing NAPALM code but rather extend it with required scope.
