@@ -1,19 +1,16 @@
 This repository contains all CHAP internal modifications of NAPALM.
 
-The idea is to create a customized NAPALM driver for devices and store Baxter's logic in the new driver.
-The drivers inherit from NAPALM, so they don't replace or change any existing NAPALM code but rather extend it with required scope.
-
 Installation:
 ### pip
 
 ```angular2
-pip install git+https://gitlab.europe.baxter.com/EMEA-NetworkServices/baxnapalm.git
+pip install git+https://github.com/Shakapp-R/ChapAutomation.git
 ```
 
 ### poetry
 
 ```bash
-poetry add git+https://gitlab.europe.baxter.com/EMEA-NetworkServices/baxnapalm.git
+poetry add git+https://github.com/Shakapp-R/ChapAutomation.git
 ```
 
 Usage:
